@@ -13,3 +13,6 @@ Technologies Used:
 2. Machine Learning Framework: YOLOv5 (PyTorch)
 3. Data Annotation Tool: Roboflow for labeling images
 4. Libraries: OpenCV, Pandas, NumPy
+
+
+To use and download the weights from this link: https://drive.google.com/drive/folders/1ccye_2Hjtl8hN_DAOvnHemlDBNyVpUSu?usp=sharing
