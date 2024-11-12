@@ -1,0 +1,13 @@
+train: ./Shelf Products.v17i.yolov5pytorch/train/images
+val: ./Shelf Products.v17i.yolov5pytorch/valid/images
+test: ./Shelf Products.v17i.yolov5pytorch/test/images
+
+nc: 15
+names: ['Aquafina', 'Baketime', 'FruitaVitals', 'Gatorade', 'Kurkure', 'KurleezMM', 'KurleezS-P', 'LaysClassic', 'LaysFC', 'LaysWavy', 'LaysY-H', 'Novita', 'PopNosh', 'SuperCrispMasala', 'SuperCrispbbq']
+
+roboflow:
+  workspace: fast-fyppython3 detect.py --weights runs/train/exp2/weights/best.pt --source /Users/anunaydwivedi/Desktop/Detec_The_Images --view-img
+  project: shelf-products-cthzl
+  version: 17
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/fast-fyp/shelf-products-cthzl/dataset/17
