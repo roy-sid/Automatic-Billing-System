@@ -1,18 +1,53 @@
-# Automated-Billing-System-Using-Machine-Learning-and-Image-Processesing
+# 🧾 Automated Billing System Using Machine Learning and Image Processing
 
-The Automated Grocery Billing System leverages machine learning and computer vision to recognize grocery items and generate a bill based on detected products. This project uses a YOLOv5 model to identify grocery items in real-time and automates the billing process by tallying quantities and prices. It is designed to streamline checkout processes and improve efficiency in retail environments.
+An intelligent grocery billing system that leverages **YOLOv5** and **OpenCV** to detect grocery items in real-time and automatically generate an itemized bill. Designed to streamline checkout processes in retail environments and reduce human effort.
 
-Features:
-1. Real-time Item Recognition: Identifies multiple grocery items in images using a trained YOLOv5 model.
-2. Automated Billing: Counts detected items and generates a total bill.
-3. CSV Export: Saves bill details, including item names, quantities, and prices, as a CSV file for record-keeping.
+---
+
+## 🚀 Features
+
+- 📸 **Real-time Object Detection**: Detects grocery items using a trained YOLOv5 model.
+- 🧾 **Automated Billing**: Automatically counts item quantities and calculates the total cost.
+- 💾 **CSV Export**: Saves billing data (item names, quantities, prices) to a CSV file for easy tracking and records.
+- 🔄 **Batch or Real-time Processing**: Can work with both images and live webcam/video input.
+
+---
+
+## 🛠️ Technologies Used
+
+- **Programming Language**: Python
+- **Object Detection Framework**: YOLOv5 (built on PyTorch)
+- **Computer Vision**: OpenCV
+- **Data Processing**: Pandas, NumPy
+- **Annotation Tool**: Roboflow (for labeling training images)
 
 
-Technologies Used:
-1. Programming Language: Python
-2. Machine Learning Framework: YOLOv5 (PyTorch)
-3. Data Annotation Tool: Roboflow for labeling images
-4. Libraries: OpenCV, Pandas, NumPy
-
-
+---
 To use, download the weights from this link: https://drive.google.com/drive/folders/1ccye_2Hjtl8hN_DAOvnHemlDBNyVpUSu?usp=sharing
+
+## 📦 Setup Instructions
+
+### 1. Clone the repository
+```bash
+git clone https://github.com/roy-sid/Automatic-Billing-System.git
+cd Automatic-Billing-System
+```
+### 2. Install dependencies
+```bash
+pip install -r requirements.txt
+```
+### 3. Download the YOLOv5 model weights 
+Download the trained YOLOv5 weights from this link:
+```
+https://drive.google.com/drive/folders/1ccye_2Hjtl8hN_DAOvnHemlDBNyVpUSu
+```
+
+### 4. Run the detection and billing script
+```
+python detect_and_bill.py
+```
+
+
+
+
+
