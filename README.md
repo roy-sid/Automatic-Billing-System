@@ -23,7 +23,18 @@ An intelligent grocery billing system that leverages **YOLOv5** and **OpenCV** t
 
 
 ---
-To use, download the weights from this link: https://drive.google.com/drive/folders/1ccye_2Hjtl8hN_DAOvnHemlDBNyVpUSu?usp=sharing
+
+## 📊 Sample Output
+
+Here are some example outputs from the system:
+
+### 🎯 Detected Items from Image
+
+![Detected Items](output/detection.png)
+
+### 🧾 Auto-Generated Bill (Terminal Output)
+
+![Bill Output](output/bill_output.png)
 
 ## 📦 Setup Instructions
 
